@@ -2,6 +2,7 @@ from urllib import urlencode
 from urllib2 import urlopen, Request
 import json
 import shelve
+import sys
 
 LOGIN_URL = 'https://www.google.com/accounts/ClientLogin'
 EMAIL = ''
