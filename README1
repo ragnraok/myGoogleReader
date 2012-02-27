@@ -1,0 +1,11 @@
+this is a very simple google reader client written by python
+it user PyQt to create the GUI
+for more information about PyQt, please visit:
+        http://www.riverbankcomputing.co.uk/news
+
+to run this program, please enter:
+        python main.py
+in console
+
+Have Fun!
+        --- By Ragnarok

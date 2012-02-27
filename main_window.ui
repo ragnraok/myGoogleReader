@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>775</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="contentList">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>0</y>
+      <width>511</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="sourceLIst">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>0</y>
+      <width>271</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>775</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuUser">
+    <property name="title">
+     <string>用户</string>
+    </property>
+    <addaction name="loginAction"/>
+    <addaction name="exitAction"/>
+   </widget>
+   <widget class="QMenu" name="menuRSS">
+    <property name="title">
+     <string>RSS</string>
+    </property>
+    <addaction name="subAction"/>
+   </widget>
+   <addaction name="menuUser"/>
+   <addaction name="menuRSS"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="loginAction">
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="subAction">
+   <property name="text">
+    <string>订阅</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
